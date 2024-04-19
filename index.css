@@ -1,0 +1,530 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    font-family: "Space Grotesk", sans-serif;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.error {
+    color: red;
+    font-size: 0.6rem;
+    margin-top: -5px;
+    margin-bottom: 12px;
+    display: block;
+}
+
+
+
+.card
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+/* .container{
+    width: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+} */
+ 
+.card-1
+{
+    width: 30%;
+    height: 100vh; 
+    position: relative;
+    background-image: url("./images/bg-main-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-2
+
+{
+    width: 70%;
+    height: 100vh;
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    background-image: url(./images/bg-card-front.png);
+    background-size: cover;
+    padding: 20px;
+    width: 275px;
+    height: 140px;
+    position: absolute;
+    border-radius: 5px;
+    top: 100px;
+    left: 48%;
+}
+
+.card-container-2{
+    position: absolute;
+    border-radius: 5px;
+    top:305px;
+    left: 68%;
+}
+
+.card-container-2 img {
+    width: 325px;
+    height: 185px;
+    object-fit: contain;
+}
+
+
+
+.card-content-1
+{
+    display: flex;
+    
+}
+
+.card-detail{
+    padding: 15px;
+    border-radius: 100%;
+    background: hsl(0, 0%, 100%);
+}
+
+.card-detail-2{
+    width: 10px;
+    height: 11px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.card-number
+{
+    width: 100%;
+    margin-top: 10%;
+    color: hsl(0, 0%, 100%);
+}
+
+.card-number p{
+    font-size: 18px;
+}
+
+.card-name p{
+    font-size: 10px;
+}
+
+.card-name
+{
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-head
+{
+    width: 88%;
+    margin-top: 20px;
+    padding: 18px;
+    background-color: hsl(278deg 57% 6.43% / 85%);
+}
+
+.card-container-content-2
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 8px;
+    width: 80%;
+    background: hsl(279, 6%, 55%);
+    text-align: end;
+    color: hsl(0, 0%, 100%);
+}
+
+
+  input[type="text"], input[type="tel"] {
+    text-indent:7px;
+    font-size: 11px;
+}
+
+
+  
+
+.card-2 form {
+    display: flex;
+    flex-direction: column;
+    width: 80%; 
+    max-width: 350px; 
+    margin: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+
+.card-2 form h6{
+    margin: 0;
+    font-size: 8px;
+    margin-top: 4px !important;
+}
+
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-row div {
+    width: calc(33.33% - 10px);
+}
+
+.card-2 input {
+    padding: 10px 6px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid hsl(270, 3%, 87%);
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.cvc-block
+{
+    position: absolute;
+    top: 20px;
+    font-size: 13px;
+    left: 87%;
+    color: white;
+}
+
+
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-wrapper {
+    flex: 1; 
+    margin-right: 10px; 
+}
+
+.large-input {
+    flex-grow: 4; 
+}
+
+
+.confirm-btn{
+    font-weight: 500;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    background: hsl(278, 68%, 11%);
+}
+
+.confirm-btn:disabled {
+    opacity: 0.5; 
+    cursor: not-allowed; 
+}   
+
+
+#continue
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.continue-head
+{
+    text-align: center;
+}
+
+.continue-pehra
+{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+
+}
+
+.check-mark
+{
+    padding: 25px;
+    border-radius: 100%;
+    background: linear-gradient(97deg, #3b0dd5, #5b0080);
+    color: white;
+    margin: auto;
+}
+
+.continue-btn
+{
+    font-weight: 500;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    background: hsl(278, 68%, 11%);
+}
+
+
+
+
+
+
+@media  screen and (min-width: 0) and  (max-width: 480px) {
+    body {
+        font-family: "Space Grotesk", sans-serif;
+        height: 100vh;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .card
+{
+    display: block;
+}
+
+.card-1
+{
+    display: block;
+    height: 250px;
+    width: 100%;
+}
+
+.card-2
+{
+    width: 100%;
+}
+
+.card-container {
+    padding: 20px;
+    width: 260px;
+    height: 125px;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 1;
+    top: 51%;
+    left: 10%;
+}
+
+.card-container-2 img {
+    object-fit: cover;
+    width: 310px;
+    height: 155px;
+}
+
+.card-container-2 {
+    position: absolute;
+    border-radius: 5px;
+    top: 15%;
+    left: 14%;
+    background-color: hsl(270, 3%, 87%);
+}
+
+.card-2 {
+    height: 100%;
+  }
+
+.card-2 form {
+    width: 100%; 
+    max-width: 360px; 
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card-2 input {
+    width: 100%;
+    padding: 13px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid hsl(270, 3%, 87%);
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.confirm-btn{
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.card-2 form h6{
+    margin-top: 8px !important;
+}
+
+.cvc-block {
+    position: absolute;
+    top: 54px;
+    font-size: 13px;
+    left: 78%;
+    color: white;
+}
+
+
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .card{
+        display: block;
+    }
+
+    .container
+    {
+        width: 100%;
+        display: block;
+    }
+
+    .card-1
+    {
+        width: 100%;
+        height: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card-container {
+        width: 250px;
+        height: 115px;
+        top: 111px;
+        left: 6%;
+        z-index: 1;
+    }
+
+    .card-container-2 img {
+        width: 295px;
+        height: 155px;
+    }
+    
+    .card-container-2 {
+     
+        top: 22px;
+        left: 20%;
+    }
+
+    .card-2{
+        width: 100%;
+        padding-top: 0;;
+    }
+
+    .card-2 form {
+        width: 100%; 
+        max-width: 400px; 
+        margin-top: 12%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .card-2 input {
+        width: 100%;
+        border: 1px solid hsl(270, 3%, 87%);
+        padding: 17px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .card-2 form h6{
+        margin-top: 8px !important;
+    }
+
+    .cvc-block {
+        position: absolute;
+        top: 55px;
+        font-size: 13px;
+        left: 77%;
+        color: white;
+    }
+
+    
+}
+ 
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+    .card{
+       display: block;
+    } 
+
+    .container{
+        display: block;
+        width: 100%;
+    }
+
+    .card-1
+    {
+        width: 100%;
+        height: 60%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card-2{
+        width: 100%;
+    }
+
+    .card-container {
+        width: 261px;
+        height: 120px;
+        top: 165px;
+        left: 45%;
+        z-index: 1;
+    }
+
+    .card-container-2 {
+
+        top: 60px;
+        left: 32%;
+    }
+    
+    .card-2 form {
+        width: 100%; 
+        max-width: 75%; 
+        margin-top: 7%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .card-2 input {
+        width: 100%;
+        padding: 17px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        border: 1px solid hsl(270, 3%, 87%);
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .card-2 form h6{
+        margin-top: 10px !important;
+    }
+
+    .cvc-block {
+        position: absolute;
+        top: 68px;
+        font-size: 13px;
+        left: 13%;
+        color: white;
+    }
+    
+}
+
+
+
+
+
+
+
